@@ -1,0 +1,14 @@
+.nav {
+color: black;
+font-weight: 700;
+font-size: 120%;
+}
+
+.nav:hover{
+	animation-iteration-count: infinite;
+	animation-duration: 4s
+}
+
+.barraNav{
+	border-bottom: solid black 4px;
+}

@@ -1,0 +1,59 @@
+:root {
+	--borde:  white;
+	--fondo:  #168aad;
+
+}
+
+.contenido{
+	background: #34a0a4;
+	font-family: 'Grandstander', cursive;
+	color: black;
+	list-style-type: none;
+	text-decoration-line: none;
+}
+
+
+
+
+
+
+
+.estrenos{
+	padding-top: 1%;
+}
+
+.footer{
+	border: solid black 2px;
+	padding-top: 1%;
+}
+
+.boton{
+	color: black;
+	background: #34a0a4;
+	border: solid white 2px;
+}
+
+.estrenos1 {
+	border: solid white 2px;
+	font-weight: 700;
+	background: var(--fondo);
+	padding: 1%;
+}
+
+a{
+	color: black;
+	list-style-type: none;
+	text-decoration-line: none;
+
+}
+
+.contacto{
+	background: white;
+}
+
+.texto{
+	font-weight: 600;
+}
+
+.imagen1:hover .imagen {-webkit-transform:scale(1.3);transform:scale(1.3);}
+.imagen1 {overflow:hidden;}
