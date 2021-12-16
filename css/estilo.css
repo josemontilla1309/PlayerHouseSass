@@ -10,10 +10,10 @@
 .barraNav {
   border-bottom: solid black 4px; }
 
-:root {
-  --borde:  white;
-  --fondo:  #168aad; }
+.nav-item {
+  padding-left: 15%; }
 
+/* Mapas */
 .contenido {
   background: #34a0a4;
   font-family: 'Grandstander', cursive;
@@ -29,14 +29,14 @@
   padding-top: 1%; }
 
 .boton {
-  color: black;
+  color: white;
   background: #34a0a4;
   border: solid white 2px; }
 
 .estrenos1 {
   border: solid white 2px;
   font-weight: 700;
-  background: var(--fondo);
+  background: #168aad;
   padding: 1%; }
 
 a {
@@ -60,9 +60,23 @@ a {
 @media only screen and (max-width: 768px) {
   .boton {
     background: #168aad; }
-  .boton1 {
+  .boton1, .boton2, .boton3 {
     background: white; } }
 
 .registro {
   background: var(--fondo);
   padding: 1%; }
+
+/* uso del extend y mixin */
+.boton1, .boton2, .boton3 {
+  border: solid white 2px;
+  border-radius: 50%;
+  background: #5E60CE;
+  text-align: center;
+  font-weight: 700; }
+
+.boton2 {
+  background: #5390D9; }
+
+.boton3 {
+  background: #4EA8DE; }

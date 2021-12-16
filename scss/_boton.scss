@@ -1,0 +1,31 @@
+/* uso del extend y mixin */
+
+
+@mixin estiloBoton($bg,$txtAl,$fontW){
+	background:$bg;
+	text-align:$txtAl;
+	font-weight:$fontW; 
+}
+
+
+
+.boton1{
+	border: solid white 2px;
+	border-radius: 50%;
+	
+	@include estiloBoton(#5E60CE,center,700)
+
+}
+
+.boton2{
+	@extend .boton1;
+	background: #5390D9;
+}
+
+.boton3{
+	@extend .boton1;
+	background: #4EA8DE;
+}
+
+
+

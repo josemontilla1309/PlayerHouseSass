@@ -1,20 +1,25 @@
-:root {
-	--borde:  white;
-	--fondo:  #168aad;
+// :root {
+// 	--borde:  white;
+// 	--fondo:  #168aad;
 
-}
+// }
+
+/* Mapas */
+
+	$paletaColores:(
+		fondo2: #168aad,
+		fondo1: #34a0a4,
+
+	);
+
 
 .contenido{
-	background: #34a0a4;
+	background: map-get($paletaColores,fondo1);
 	font-family: 'Grandstander', cursive;
 	color: black;
 	list-style-type: none;
 	text-decoration-line: none;
 }
-
-
-
-
 
 
 
@@ -28,7 +33,7 @@
 }
 
 .boton{
-	color: black;
+	color: white;
 	background: #34a0a4;
 	border: solid white 2px;
 }
@@ -36,7 +41,7 @@
 .estrenos1 {
 	border: solid white 2px;
 	font-weight: 700;
-	background: var(--fondo);
+	background: map-get($paletaColores,fondo2);
 	padding: 1%;
 }
 
@@ -57,3 +62,5 @@ a{
 
 .imagen1:hover .imagen {-webkit-transform:scale(1.3);transform:scale(1.3);}
 .imagen1 {overflow:hidden;}
+
+
