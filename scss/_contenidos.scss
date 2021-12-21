@@ -9,6 +9,7 @@
 	$paletaColores:(
 		fondo2: #168aad,
 		fondo1: #34a0a4,
+		color3: #52b788
 
 	);
 
@@ -25,6 +26,7 @@
 
 .estrenos{
 	padding-top: 1%;
+
 }
 
 .footer{
@@ -41,8 +43,8 @@
 .estrenos1 {
 	border: solid white 2px;
 	font-weight: 700;
-	background: map-get($paletaColores,fondo2);
 	padding: 1%;
+	background: map-get($paletaColores,color3);
 }
 
 a{
@@ -63,4 +65,8 @@ a{
 .imagen1:hover .imagen {-webkit-transform:scale(1.3);transform:scale(1.3);}
 .imagen1 {overflow:hidden;}
 
+.registro{
+	background: map-get($paletaColores,color3);
+
+}
 
