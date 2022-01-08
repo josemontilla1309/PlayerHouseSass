@@ -64,14 +64,11 @@ a {
   .boton {
     background: #168aad; }
   .boton1, .boton2, .boton3 {
-    background: white; } }
-
-.registro {
-  background: var(--fondo);
-  padding: 1%; }
-
-.card {
-  margin-top: 10%; }
+    background: white; }
+  .card {
+    margin-top: 10%; }
+  .mapa {
+    width: auto; } }
 
 /* uso del extend y mixin */
 .boton1, .boton2, .boton3 {
@@ -86,3 +83,21 @@ a {
 
 .boton3 {
   background: #4EA8DE; }
+
+.gridPadre {
+  display: grid;
+  grid-template-areas: "header header nav" "main main main" "footer footer footer";
+  grid-template-rows: 15% auto 25%;
+  grid-template-columns: repeat(2, 50%); }
+
+header {
+  grid-area: header; }
+
+.barraNav1 {
+  grid-area: nav; }
+
+.gridHijo {
+  grid-area: main; }
+
+footer {
+  grid-area: footer; }
